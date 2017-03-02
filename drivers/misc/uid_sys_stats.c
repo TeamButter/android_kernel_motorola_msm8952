@@ -40,6 +40,7 @@ struct io_stats {
 	u64 write_bytes;
 	u64 rchar;
 	u64 wchar;
+	u64 fsync;
 };
 
 #define UID_STATE_FOREGROUND	0
